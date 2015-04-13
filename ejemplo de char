@@ -1,0 +1,11 @@
+/*prueba de char
+*Alexis Friedrich
+*13/04/2015
+*/
+#include <iostream>
+using namespace std;
+char nombre='a';
+int main ()
+{
+cout<<nombre<<endl;
+}
