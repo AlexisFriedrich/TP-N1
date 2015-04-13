@@ -1,0 +1,10 @@
+/*prueba de bool
+*Alexis Friedrich
+*10/04/2015
+*/
+#include <iostream>
+using namespace std;
+int main ()
+{bool elprofesorfaltootravez = true;
+cout<<elprofesorfaltootravez<< endl;
+}
