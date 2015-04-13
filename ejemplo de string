@@ -1,0 +1,11 @@
+/*prueba de string
+*Alexis Friedrich
+*13/04/2015
+*/
+#include <iostream>
+using namespace std;
+int main()
+{string a;
+a="unos y ceros";
+cout<<a<<endl;
+}
