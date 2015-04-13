@@ -1,0 +1,11 @@
+/*prueba de double
+*Alexis Friedrich
+*13/04/2015
+*/
+#include <iostream>
+using namespace std;
+double nota_de_este_tp=10.5;
+int main ()
+{
+	cout<< nota_de_este_tp<< endl;
+}
