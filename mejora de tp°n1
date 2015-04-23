@@ -1,0 +1,140 @@
+/*Mejora tpn°1
+*Alexis Fiedrich
+*23/04/2015
+*/
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main ()
+
+{
+	int a,b,c,d,e,f,g,h,i,j,k;
+	cout<<"ejemplos de int"<<endl;
+	cout<<"ejemplo de suma (elija dos numeros enteros)"<<endl;
+	cout<<"ingrese primer numero"<<endl;
+	cin>>a;
+	cout<<"ingrese segundo numero"<<endl;
+	cin>>b;
+	cout<<"su suma"<<endl;
+	cout<<a+b<<endl;
+	cout<<"ejemplo de resta (elija dos numeros enteros)"<<endl;
+	cout<<"ingrese minuendo"<<endl;
+	cin>>c;
+	cout<<"ingrese sustraendo"<<endl;
+	cin>>d;
+	cout<<"su resta"<<endl;
+	cout<<c-d<<endl;
+	cout<<"ejemplo de multiplicacion (elija 2 dos numeros enteros)"<<endl;
+	cout<<"ingrese primer numero"<<endl;
+	cin>>e;
+	cout<<"ingrese segundo numero"<<endl;
+	cin>>f;
+	cout<<"su multiplicacion"<<endl;
+	cout<<e*f<<endl;
+	cout<<"ejemplo de division y resto (elija dos numeros enteros)"<<endl;
+	cout<<"ingrese dividendo"<<endl;
+	cin>>g;
+	cout<<"ingrese divisor"<<endl;
+	cin>>h;
+	cout<<"su cociente"<<endl;
+	cout<<g/h<<endl;
+	cout<<"el resto de su division"<<endl;
+	cout<<g%h<<endl;
+	cout<<"ejemplo de potenciacion"<<endl;
+	cout<<"ingrese base"<<endl;
+	cin>>i;
+	cout<<"ingrese exponente"<<endl;
+	cin>>j;
+	cout<<"su potenciacion"<<endl;
+	cout<<pow (i,j)<<endl;
+	cout<<"ejemplo de radicacion (elija un numero entero)"<<endl;
+	cout<<"ingrese radicando"<<endl;
+	cin>>k;
+	cout<<"su raiz cuadrada"<<endl;
+	cout<<sqrt(k)<<endl;
+	
+	double l,m,n,o,p,q,r,s,t,u,v;
+	cout<<"ejemplos de double"<<endl;
+	cout<<"ejemplo de suma (elija dos numeros racionales no enteros)"<<endl;
+	cout<<"ingrese primer numero"<<endl;
+	cin>>l;
+	cout<<"ingrese segundo numero"<<endl;
+	cin>>m;
+	cout<<"su suma"<<endl;
+	cout<<l+m<<endl;
+	cout<<"ejemplo de resta (elija dos numeros racionales no enteros)"<<endl;
+	cout<<"ingrese minuendo"<<endl;
+	cin>>n;
+	cout<<"ingrese sustraendo"<<endl;
+	cin>>o;
+	cout<<"su resta"<<endl;
+	cout<<n-o<<endl;
+	cout<<"ejemplo de multiplicacion (elija 2 dos numeros racionales no enteros)"<<endl;
+	cout<<"ingrese primer numero"<<endl;
+	cin>>p;
+	cout<<"ingrese segundo numero"<<endl;
+	cin>>q;
+	cout<<"su multiplicacion"<<endl;
+	cout<<p*q<<endl;
+	cout<<"ejemplo de division (elija dos numeros racionales no enteros)"<<endl;
+	cout<<"ingrese dividendo"<<endl;
+	cin>>r;
+	cout<<"ingrese divisor"<<endl;
+	cin>>s;
+	cout<<"su cociente"<<endl;
+	cout<<r/s<<endl;
+	cout<<"ejemplo de potenciacion (elija dos numeros racionales no enteros)"<<endl;
+	cout<<"ingrese base"<<endl;
+	cin>>t;
+	cout<<"ingrese exponente"<<endl;
+	cin>>u;
+	cout<<"su potenciacion"<<endl;
+	cout<<pow (t,u)<<endl;
+	cout<<"ejemplo de radicacion (elija un numero racional no enteros)"<<endl;
+	cout<<"ingrese radicando"<<endl;
+	cin>>v;
+	cout<<"su raiz cuadrada"<<endl;
+	cout<<sqrt(v)<<endl;
+
+   	cout<<"ejemplo de char" <<endl;
+	char aa, ab;
+	bool ac;
+	cout<<"ingrese primer caracter" <<endl;
+	cin>>aa;
+	cout<<"ingrese segundo caracter"<<endl;
+	cin>>ab;
+	cout<<"valor de verdad si los dos caracteres son iguales"<<endl;
+	if (aa==ab)
+	{ac=true;
+	}
+	if (aa!=ab)
+	{ac=false;
+	}
+	cout<<ac<<endl; 
+	
+	cout<<"ejemplo de string" <<endl;
+	string az;
+	cout<<"ingrese su nombre" <<endl;
+	cin>>ac;
+	cout<< "hola "+az <<endl;
+	
+	cout<<"ejemplo de bool" <<endl;
+	bool ad,ae,af,ag,ah,ai,aj;
+	ad=true;
+	ae=false;
+	af= ad&&ae;
+	ag= ad||ae;
+	ah= ad=ae;
+	ai= ad=!ae;
+	aj= not ae;
+	cout<<"verdad y falsedad" <<endl;
+	cout<<af<<endl;
+	cout<<"verdad o falsedad" <<endl;
+	cout<<ag<<endl;
+	cout<<"igualdad entre verdad y falsedad" <<endl;
+	cout<<ah<<endl;
+	cout<<"desigualdad entre verdad y falsedad" <<endl;
+	cout<<ai<<endl;
+	cout<<"negacion de falsedad" <<endl;
+	cout<<aj<<endl;		
+}
